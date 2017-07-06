@@ -1,21 +1,22 @@
 # Dependencies
 markdown:	kramdown
 # Permalinks
-permalink:	/blog/:title
+permalink:	/publicaciones/:title
 
 # Setup
-title:            Thinny
+title:            Javier Ojeda
 tagline:          'blog'
 description:      'My personal blog.'
-url:              http://camporez.github.io
-baseurl:          
+url:              http://blog.javierojeda.xyz
+baseurl:
 commentsystem:    google
 disqus:           example
 
 author:
-  name:           Ian Brunelli
-  url:            https://google.com/+IanCamporezBrunelli
+  name:           Javier Ojeda
+  url:            https://www.linkedin.com/in/javierojedamaldonado/
 
+gems:             [jekyll-paginate]
 paginate:         5
 
 # Custom vars
@@ -24,20 +25,12 @@ cover:            /assets/images/cover.jpg
 
 social:
   - icon:         twitter
-    url:          https://twitter.com/iancamporez
-    desc:         Follow me on twitter
+    url:          https://twitter.com/soy_javierojeda
+    desc:         Síguene en Twitter
 
   - icon:         github
-    url:          https://github.com/camporez
-    desc:         Fork me on github
-
-  - icon:         googleplus-alt
-    url:          https://google.com/+IanCamporezBrunelli
-    desc:         Add me on google+
-
-  - icon:         feed
-    url:          http://camporez.github.io/atom.xml
-    desc:         Subscribe to my feed
+    url:          https://github.com/javierojeda94
+    desc:         Check my code
 
 menu:
   - title:        Home
@@ -47,15 +40,15 @@ menu:
     url:          /about
 
 copyright:
-  author:         Camporez
-  url:            http://camporez.github.io
-  type_title:     Some rights reserved
+  author:         Javier Ojeda
+  url:            http://javierojeda.xyz
+  type_title:     Some rights reserved (Forked from http://camporez.github.io)
   type_url:       http://creativecommons.org/licenses/by-nc/2.5
 
 parallax:         false
 
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
-google_analytics:  
+google_analytics:
 
 # Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
 theme_color:       7E9576
